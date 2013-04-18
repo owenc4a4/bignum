@@ -32,7 +32,7 @@
   },
   "scripts": {
     "install" :"nw-gyp configure --target=0.5.0 build"
-  }
+  },
   "contributors": [
     "James Halliday <mail@substack.net>"
   ]
