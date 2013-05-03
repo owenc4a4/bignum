@@ -30,6 +30,9 @@
   "engine" : {
     "node" : ">=0.8.0"
   },
+  "scripts": {
+    "install": "nw-gyp configure --target=0.5.1 build"
+  },
   "contributors": [
     "James Halliday <mail@substack.net>"
   ]
