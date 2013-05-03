@@ -1,7 +1,7 @@
 try {
-    var cc = new require('./build/Debug/bignum');
+    var cc = new require('./build/Debug/bignum.node');
 } catch(e) {
-    var cc = new require('./build/Release/bignum');
+    var cc = new require('./build/Release/bignum.node');
 }
 var BigNum = cc.BigNum;
 
